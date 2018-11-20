@@ -11,7 +11,7 @@ brew install pantheon
 Run the pantheon executable:
 
 ```
-pantheon
+pantheon --help
 ```
 
 Refer to the [pantheon wiki](https://github.com/pegasyseng/pantheon/wiki) for further information.
