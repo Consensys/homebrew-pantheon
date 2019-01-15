@@ -15,3 +15,9 @@ pantheon --help
 ```
 
 Refer to the [pantheon wiki](https://github.com/pegasyseng/pantheon/wiki) for further information.
+
+To upgrade pantheon:
+```
+brew tap pegasyseng/pantheon
+brew upgrade pantheon
+```
