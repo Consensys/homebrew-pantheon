@@ -3,7 +3,7 @@ class Pantheon < Formula
   homepage "https://github.com/pegasyseng/pantheon"
   url "https://consensys.bintray.com/pegasys-repo/pantheon-1.0.1.zip"
   # update with: shasum -a 256
-  sha256 "7d8cf4b8403c1a5d4dcaa1d6ff1e1da5fcab8dc8623027e94ba75ebff641c288"
+  sha256 "acb015f6467f623fec96de876b274eaccf08951c298e2c5eaf15d45784e3dbf8"
 
   depends_on :java => "1.8+"
 
