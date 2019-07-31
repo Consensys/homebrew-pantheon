@@ -25,7 +25,7 @@ class Pantheon < Formula
   # update with: ./updatePantheon.sh <new-version>
   sha256 "${HASH}"
 
-  depends_on :java => "1.8+"
+  depends_on :java => "11+"
 
   def install
     prefix.install "lib"
