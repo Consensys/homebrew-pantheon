@@ -1,9 +1,9 @@
 class Pantheon < Formula
   desc "pantheon ethereum client"
   homepage "https://github.com/pegasyseng/pantheon"
-  url "https://consensys.bintray.com/pegasys-repo/pantheon-1.2.0.zip"
+  url "https://consensys.bintray.com/pegasys-repo/pantheon-1.2.1.zip"
   # update with: ./updatePantheon.sh <new-version>
-  sha256 "e1b49ccc1aaf449035cd329f8790c4583e2e7a19adcdff70fa61263c48b5664b"
+  sha256 "6e6dcad2f6230f9e13c69f510c16458e4ceb6a4b9ceee5d45c85b47fb40a440b"
 
   depends_on :java => "11+"
 
