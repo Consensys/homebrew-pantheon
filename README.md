@@ -1,23 +1,29 @@
-# homebrew-pantheon
-Homebrew Tap for Pantheon.
+# homebrew-besu
+
+This tap will move to hyperledger/besu in the future
+
+ [![RocketChat chat](https://open.rocket.chat/images/join-chat.svg)](https://chat.hyperledger.org/channel/besu)
+ [![Documentation Status](https://readthedocs.org/projects/hyperledger-besu/badge/?version=latest)](https://besu.hyperledger.org/en/latest/?badge=latest)
+ [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/hyperledger/homebrew-besu/blob/master/LICENSE)
+Homebrew Tap for besu.
 
 ## Getting started
 Add the tap, and install:
 
 ```
-brew tap pegasyseng/pantheon
-brew install pantheon
+brew tap hyperledger/besu
+brew install besu
 ```
-Run the pantheon executable:
+Run the besu executable:
 
 ```
-pantheon --help
+besu --help
 ```
 
-Refer to the [pantheon wiki](https://github.com/pegasyseng/pantheon/wiki) for further information.
+Refer to the [besu docs](https://besu.hyperledger.org) for further information.
 
-To upgrade pantheon:
+To upgrade besu:
 ```
-brew tap pegasyseng/pantheon
-brew upgrade pantheon
+brew tap hyperledger/besu
+brew upgrade besu
 ```
